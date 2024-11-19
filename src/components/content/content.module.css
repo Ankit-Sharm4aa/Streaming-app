@@ -1,0 +1,22 @@
+.content-container {
+  display: flex;
+  list-style: none;
+  gap: 0.3rem;
+  overflow:auto;
+  /* scrollbar-width: none; */
+}
+.item {
+  flex: 1 0 13rem;
+  min-height: 7rem;
+  background-color: beige;
+  transition: all 0.6s ease-out;
+  color: black;
+  border-radius: 0.2rem;
+}
+
+.item:hover {
+  transform: scale(1.2, 2.3);
+  flex: 1 0 15rem;
+  cursor: pointer;
+  background-color: blue;
+}

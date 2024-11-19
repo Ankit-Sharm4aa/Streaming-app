@@ -1,0 +1,34 @@
+.footer {
+  margin-top: 2rem;
+  background-color: bisque;
+  width: 100vw;
+  min-height: 10rem;
+  overflow-x: hidden;
+  color: black;
+  padding: 1rem;
+}
+.sample-text {
+  color: brown;
+}
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.grid-container {
+  margin: 1.2rem 0;
+  padding: 0 1rem;
+}
+.items {
+  padding: 0.4rem 0;
+  text-align: center;
+  color: red;
+}
+
+@media (max-width: 500px) {
+  .grid-container {
+    padding: 0 1rem;
+  }
+}

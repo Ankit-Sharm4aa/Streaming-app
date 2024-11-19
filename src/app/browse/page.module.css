@@ -1,0 +1,26 @@
+.nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.canvas {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
+.content-container {
+  margin-left: 3rem;
+  margin-top: 22rem;
+}
+.content {
+  overflow-x: scroll;
+}
+
+@media (min-width:1200px){
+  .content-container{
+    margin-top: 22rem;
+  }
+}

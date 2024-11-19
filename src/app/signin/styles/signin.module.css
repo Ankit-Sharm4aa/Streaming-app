@@ -1,0 +1,22 @@
+.logo {
+  margin: 0.2rem 2rem;
+}
+.box {
+  padding: 2.5rem;
+  background-color: rgba(205, 0, 0, 0.655);
+  max-width: 26.6rem;
+  min-height: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+@media (max-width: 428px) {
+  .box {
+    padding: 2.5rem;
+    background-color: rgba(205, 0, 0, 0.655);
+    max-width: 26.6rem;
+    min-height: 30rem;
+    margin: 0 0.6rem;
+    margin-top: 2rem;
+  }
+}
