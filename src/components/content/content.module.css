@@ -2,7 +2,7 @@
   display: flex;
   list-style: none;
   gap: 0.3rem;
-  overflow:auto;
+  overflow:visible;
   /* scrollbar-width: none; */
 }
 .item {

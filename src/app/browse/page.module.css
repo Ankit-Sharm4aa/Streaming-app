@@ -15,9 +15,9 @@
   margin-left: 3rem;
   margin-top: 22rem;
 }
-.content {
+/* .content {
   overflow-x: scroll;
-}
+} */
 
 @media (min-width:1200px){
   .content-container{
